@@ -2,9 +2,10 @@ import dynamic from "next/dynamic";
 
 function tempo (request, response) {
      const dynamicDate = new Date();
-}
+
      response.json({
-        Date : dynamicDate.toGMTString()
-     })
+        date: dynamicDate.toGMTString()
+     });
+    }
 
      export default tempo;
